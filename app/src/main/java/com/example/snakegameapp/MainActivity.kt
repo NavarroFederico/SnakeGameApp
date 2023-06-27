@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
 
     Column() {
-        Button(onClick = { throw RuntimeException("Test Crash") }) {
+        Button(onClick = { throw RuntimeException("Test Crash Ivan") }) {
             Text(text = "Apretame")
         }
         Text(
